@@ -1,16 +1,14 @@
-@import url('/assets/css/reset.css');
-@import url('/assets/css/global.css');
-@import url('/assets/css/components/navigator.css');
-@import url('/assets//css/components/pills.css');
-@import url('/assets/css/components/link-button.css');
-@import url('/assets/css/components/gallery.css');
+@import url("/assets/css/reset.css");
+@import url("/assets/css/global.css");
+@import url("/assets/css/components/navigator.css");
+@import url("/assets//css/components/pills.css");
+@import url("/assets/css/components/link-button.css");
+@import url("/assets/css/components/gallery.css");
 
 .s-wrapper {
   display: flex;
   height: 100vh;
   flex-flow: row nowrap;
- 
-  
 }
 
 .s-wrapper .s-left-column {
@@ -23,7 +21,7 @@
   padding-right: 50px;
   left: 0;
   top: 0;
-  
+
   z-index: 1;
 }
 
@@ -35,7 +33,7 @@
 .s-wrapper .s-main-content {
   height: 100%;
   width: 100%;
-   background-color: gray; 
+  /* background-color: gray;  */
   padding-left: 130px;
   position: relative;
 }
@@ -60,7 +58,7 @@
 }
 
 .s-wrapper .s-main-content__top .s-description {
-  background-color: rgba(0, 0, 0, .7);
+  background-color: rgba(0, 0, 0, 0.7);
   max-width: 50%;
   padding: 20px;
   border-radius: 10px;
@@ -85,7 +83,7 @@
   flex-direction: row;
 }
 
-.s-spiderman-01-01 {
+/* .s-spiderman-01-01 {
   background-image: url('/assets/images/spiderman-tobey/movie-01/background.png');
   background-size: cover;
 }
@@ -96,6 +94,4 @@
 .s-spiderman-01-03 {
   background-image: url('/assets/images/spiderman-tobey/movie-03/background.png');
   background-size: cover;
-}
-
-
+} */
